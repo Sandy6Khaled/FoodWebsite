@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Food</title>
+    <link rel="stylesheet" href="MyStyle.css">
+</head>
+<body id="Body">
+    <h1 id="Header">Healthy Food</h1>
+    <div id="Div1">
+        <nav id="Nav">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#CookingRecipes">Cooking Recipes</a></li>
+                <li><a href="#NewRecipes">New Recipes</a></li>
+                <li style="float: right;"><a class="act" href="#About">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="Container">
+        <div id="Paragraph">
+             <h1 class="H">HEALTHY FOOD FOR YOU</h1><br>
+             <h3 class="H">DELICIOUS!</h3><br>
+             <h4 class="H">Prepare and Serve with Love </h4><br>
+            <p id="Para">
+                You can take it as a special Food for You <br>
+                just enjoy and take your own food and live <br>
+                with Healthy life 
+            </p>
+        </div>
+        <div id="Form">
+            <form>
+                <label for="fname" class="S">First name: </label>
+                <input type="text" id="fname" class="S" name="fname"><br><br><br>
+                <label for="lname" class="S">Last name: </label>
+                <input type="text" id="lname" class="S" name="lname"><br><br><br>
+                <label for="Mobile" class="S">Telephone: </label>
+                <input type="tel" id="Tel" class="S" name="Tell"><br><br><br>
+                <label for="Address" class="S"> Your Address: </label>
+                <input type="text" id="AddressText" class="S" name="AdrsText"><br><br><br>
+                <input type="submit" value="Order Now" id="Sub">
+            </form>
+        </div>
+    </div>
+
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <img src="vegitables.jpeg"/>
+            <p class="author">- vegitables</p>
+        </div>
+        <div class="mySlides">
+            <img src="Spices.jpeg"/>
+            <p class="author">- Mix Spices</p>
+        </div>
+            
+        <div class="mySlides">
+            <img src="Sandwiches.jpeg"/>
+            <p class="author">- Some Sandwiches</p>
+        </div>
+            
+        <div class="mySlides">
+            <img src="Salad.jpeg"/>
+            <p class="author">- Healthy Salad</p>
+        </div>
+            
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+            
+    </div>
+            
+    <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+    </div>
+    <script src="Document.js"></script>
+</body>
+</html>

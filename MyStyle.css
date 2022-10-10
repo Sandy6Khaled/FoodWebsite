@@ -1,0 +1,150 @@
+#Body{
+    background-color: dimgray;
+    position: relative;
+}
+/*Navigation Bar*/
+#Div1{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+ul{
+    list-style-type:none;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+/* All the A in the List*/
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px ;
+    text-decoration: none;
+}
+li a:hover:not(.act){
+    background-color:cadetblue;
+}
+/*About Buttom*/
+.act{
+    background-color:olive;
+    text-align: center;
+}
+/*Top Header*/
+#Header{
+    margin: 10%;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+/* All the Headers*/
+.H{
+    color: white;
+    margin-left: 25px;
+    font-size: 40px;
+    padding: 5px;
+}
+#Para{
+    color: white;
+    margin-left: 25px;
+    font-size: 25px;
+    padding: 5px;
+}
+#Paragraph{
+    position: absolute;
+    float: left;
+}
+#Form{
+    position: absolute;
+    float: right;
+    padding: 5px;
+    margin-left: 50%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    background-image: url('chef.jpg');
+    width: 50%;
+    height: 600px;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    border-radius: 50%;
+}
+#Sub{
+    float: left;
+    font-size: large;
+    margin-right: 30%;
+}
+/*{box-sizing: border-box}*/
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+    margin-top: 60%;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 100px;
+    text-align: center;
+
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+      text-align: center;
+      padding: 20px;
+      background: #ddd;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .activedot, .dot:hover {
+    background-color:#717171;
+  }
